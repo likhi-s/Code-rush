@@ -39,6 +39,7 @@ int main()
     printf("size of double = %d\n",sizeof(d));
     printf("size of char string = %d\n",sizeof(l));
     printf("size of %d\n",sizeof(void));
+    //pointers
     printf("size of int* = %d\n",sizeof(int *));
     printf("size of char* = %d\n",sizeof(char *));
     printf("size of float* = %d\n",sizeof(float *));
