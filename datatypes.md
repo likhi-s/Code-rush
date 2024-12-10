@@ -8,7 +8,8 @@ Data types are
 3. User-defined(structure)
 
 
-## Primitive Data Types
+## Primitive Data Types 
+ 
 
 + Integer (int)
   * sizeof(int) is 4 bytes
