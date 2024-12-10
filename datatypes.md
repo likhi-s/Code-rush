@@ -24,7 +24,7 @@ Data types are
 
 + Character Array:size depends on array size
 ex: char l[10] -> size is 10 bytes. 
-+ Pointers(stores the memory address of another variable)
++ Pointers(stores the address of another variable)
   * sizeof(int *) is 8 bytes
   * sizeof(char *) is 8 bytes
   * sizeof(float *) is 8 bytes
