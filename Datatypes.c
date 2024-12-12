@@ -6,7 +6,7 @@ void datatypes()
 
     int a=10;
     char b='A';
-    float c= 12.54f;
+    float c= 12.54;
     double d= 20.8415;
     char l[10] ="likhitha";
     struct A

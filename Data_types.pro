@@ -8,7 +8,8 @@ SOURCES += \
         main.c
 
 DISTFILES += \
-    datatypes.md
+    datatypes.md \
+    operators.md
 
 HEADERS += \
     datatypes.h
