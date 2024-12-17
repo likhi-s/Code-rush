@@ -112,5 +112,6 @@
 12. **Address-of Operator (&)**
 - It is used to get the memory address of a variable.
 
-13. **Dot(.) and Arrow Operator(->)**
-- 
+13. **Dot(.) and Arrow Operator(->)** are used to access members of structures 
+- Dot Operator Used to access members of a structure when you have a direct instance of the structure.
+- Arrow operator Used to access members of a structure through a pointer.
