@@ -115,3 +115,70 @@
 13. **Dot(.) and Arrow Operator(->)** are used to access members of structures 
 - Dot Operator Used to access members of a structure when you have a direct instance of the structure.
 - Arrow operator Used to access members of a structure through a pointer.
+
+### PRECEDENCE AND ASSOCIATIVITY FOR OPERATORS
+
+1. level 1 (Highest precedence)
+    - ()  []  .  ->  ++   --
+    - Associativity is from Left to Right.
+    
+2. level 2
+   - ++  --  +  - (unary + and -)  !  ~ (type)  *(dereference operator)  &(addressof operator)  sizeof
+   - Associativity is from Right to left.
+
+3. level 3
+   - (*  /  % ) 
+   - Associativity is from Left to right.
+   
+4. level 4
+   - ( +  -)
+   - Associativity is from Left to right
+   
+5. level 5
+   - <<  >>
+   - Associativity is from Left to right
+   
+6. level 6
+   - <  <=  >  >=
+   - Associativity is from Left to right
+   
+7. level 7
+   - ==  !=  
+   - Associativity is from Left to right
+   
+8. level 8
+   - & (Bitwise AND)
+   - Associativity is from Left to right
+   
+9. level 9
+   - ^
+   - Associativity is from Left to right
+   
+10. level 10
+    - |
+    - Associativity is from Left to right
+   
+11. level 11
+    - &&
+    - Associativity is from Left to right
+   
+12. level 12
+    - || 
+    - Associativity is from Left to right
+   
+13. level 13
+    - ?: 
+    - Associativity is from right to Left.
+   
+14. level 14
+    - =  +=  -=  *=  /=  %=  &=  ^=  |=  <<=  >>= 
+    - Associativity is from right to Left.
+   
+15. level 15(Lowest Precedence)
+    - ,   
+    - Associativity is from Left to right
+
+
+# PUMA’S REBL TAC (operators Associativity and Precedence)
+where, P = Postfix, U = Unary, M = Multiplicative, A = Additive, S = Shift, R = Relational, E = Equality, B = Bitwise, L = Logical, T = Ternary, A = Assignment and C = Comma
+   
